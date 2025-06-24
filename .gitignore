@@ -1,0 +1,21 @@
+# Archivos del sistema
+*.log
+*.env
+.DS_Store
+
+# Configuración del editor
+.vscode/
+.idea/
+
+# Dependencias (por si usás Composer en el futuro)
+vendor/
+
+# Cachés o temporales
+node_modules/
+tmp/
+.cache/
+
+# Archivos de entorno o backups
+.env
+*.bak
+*.old
