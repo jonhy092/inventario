@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-// Conexión segura
+// Conexión segura//
 include("../config/db.php");
 $con = @mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 if (!$con) {
